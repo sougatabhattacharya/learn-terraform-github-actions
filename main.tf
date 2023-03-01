@@ -12,7 +12,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "Aisera"
+    organization = "aisera-terraform"
 
     workspaces {
       name = "kibana-ingestion-service"
